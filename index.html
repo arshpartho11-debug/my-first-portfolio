@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1120;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 22px 8%;
+      border-bottom: 1px solid #263247;
+    }
+
+    .logo {
+      color: #5eead4;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #f8fafc;
+      text-decoration: none;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero p {
+      color: #5eead4;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-size: clamp(36px, 7vw, 64px);
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      max-width: 560px;
+      color: #cbd5e1;
+      margin-bottom: 28px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #5eead4;
+      color: #0b1120;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .about {
+      padding: 60px 8%;
+      text-align: center;
+      background: #111b2e;
+    }
+
+    .about p {
+      max-width: 600px;
+      margin: 16px auto 0;
+      color: #cbd5e1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">MY PORTFOLIO</div>
+    <a href="#about">About Me</a>
+  </nav>
+
+  <section class="hero">
+    <p>Hello, I'm</p>
+
+    <h1>Your Name</h1>
+
+    <p class="description">
+      I am learning Web Development by building real projects.
+      This is my first personal portfolio website.
+    </p>
+
+    <a class="button" href="#about">Discover More</a>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Me</h2>
+
+    <p>
+      I am a beginner Web Developer.
+      I enjoy learning new skills and creating things for the web.
+      This is the beginning of my journey.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 My Portfolio. Built with HTML and CSS.</p>
+  </footer>
+
+</body>
+</html>
